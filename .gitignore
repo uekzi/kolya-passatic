@@ -1,0 +1,9 @@
+node_modules/
+.npm-cache/
+dist/
+.env
+.env.*
+!.env.example
+server/data/local-db.json
+*.log
+artifacts-*.png

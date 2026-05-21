@@ -1,0 +1,29 @@
+{
+  "name": "kino-mood-recommender",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Diploma project: intelligent movie recommendation web service based on user preferences.",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:client": "node node_modules/vite/bin/vite.js --host 127.0.0.1 --port 5173",
+    "dev:server": "node --watch server/index.js",
+    "build": "node node_modules/vite/bin/vite.js build",
+    "start": "node server/index.js",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-react": "^0.468.0",
+    "pg": "^8.16.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "vite": "^7.1.12"
+  },
+  "devDependencies": {}
+}
